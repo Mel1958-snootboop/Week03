@@ -3,24 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import styles from './alert.module.css';
 import { clsx } from 'clsx';
-
-
-//It shows a styled alert message, with different styles for success or error types.
-export default function Alert({ children, type }) {
-  return (
-    <div
-      className={clsx({
-        [styles.success]: type === 'success',
-        [styles.error]: type === 'error',
-      })}
-    >
-      {children}
-    </div>
-  );
-}
-
  
 //It provides a consistent structure and style for all pages in the site.
 const name = 'Melanie';
