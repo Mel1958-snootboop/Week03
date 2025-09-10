@@ -1,7 +1,9 @@
-import Script from 'next/script';
 import Head from 'next/head';
+import Script from 'next/script';
 import Link from 'next/link';
 import Layout from '../../components/layout';
+
+<img src="/images/profile.jpg" alt="Your Name" />
 
 export default function FirstPost() {
   return (
