@@ -3,6 +3,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import Layout from '../../components/layout';
 
+//profile image
 <img src="/images/profile.jpg" alt="Your Name" />
 
 //It creates a simple blog post page with a title, a loaded external script, and a navigation link.
