@@ -5,6 +5,7 @@ import Layout from '../../components/layout';
 
 <img src="/images/profile.jpg" alt="Your Name" />
 
+//It creates a simple blog post page with a title, a loaded external script, and a navigation link.
 export default function FirstPost() {
   return (
     <>

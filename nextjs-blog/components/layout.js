@@ -5,7 +5,9 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import styles from './alert.module.css';
 import { clsx } from 'clsx';
- 
+
+
+//It shows a styled alert message, with different styles for success or error types.
 export default function Alert({ children, type }) {
   return (
     <div
@@ -20,6 +22,7 @@ export default function Alert({ children, type }) {
 }
 
  
+//It provides a consistent structure and style for all pages in the site.
 const name = 'Melanie';
 export const siteTitle = 'Next.js Sample Website';
  

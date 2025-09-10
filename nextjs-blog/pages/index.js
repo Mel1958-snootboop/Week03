@@ -1,7 +1,9 @@
+//They bring in components and styles needed to build and style the homepage.
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
  
+//It creates and styles the homepage, showing an introduction and a tutorial link.
 export default function Home() {
   return (
     <Layout home>
