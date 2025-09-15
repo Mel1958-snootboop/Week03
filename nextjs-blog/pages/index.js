@@ -2,6 +2,8 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
+import styles from '../styles/alert.module.css';
+import { clsx } from 'clsx';
  
 //It creates and styles the homepage, showing an introduction and a tutorial link.
 export default function Home() {
