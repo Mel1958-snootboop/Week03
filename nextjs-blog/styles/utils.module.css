@@ -48,5 +48,9 @@
 }
  
 .lightText {
-  color: #2b2b2b;
+  color: #000000;
+}
+
+.backgroundcolor {
+  background-color: #a9fff5;
 }
