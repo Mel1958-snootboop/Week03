@@ -1,3 +1,5 @@
+/* Styles the .success class with green text and the .error class with red text, 
+   typically used to indicate success or error messages. */
 .success {
   color: green;
 }
